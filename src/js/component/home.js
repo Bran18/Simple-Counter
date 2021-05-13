@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { SecondsCounter } from "./SeconsCounter";
 
 let i = 0; 
+//this is for the final commit
 
 const Clock = () => {
 	const [secs, setTime] = useState(i);
